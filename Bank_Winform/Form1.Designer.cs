@@ -55,6 +55,7 @@
             label4 = new System.Windows.Forms.Label();
             button14 = new System.Windows.Forms.Button();
             pictureBox1 = new System.Windows.Forms.PictureBox();
+            label9 = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -360,12 +361,22 @@
             pictureBox1.TabIndex = 25;
             pictureBox1.TabStop = false;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new System.Drawing.Point(358, 179);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(57, 21);
+            label9.TabIndex = 26;
+            label9.Text = "label9";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(0, 64, 64);
             ClientSize = new System.Drawing.Size(957, 502);
+            Controls.Add(label9);
             Controls.Add(pictureBox1);
             Controls.Add(button14);
             Controls.Add(label4);
@@ -421,5 +432,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label9;
     }
 }
